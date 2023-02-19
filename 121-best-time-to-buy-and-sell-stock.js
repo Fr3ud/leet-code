@@ -6,6 +6,6 @@ const maxProfit = prices => {
     profit = Math.max(profit, price - buy);
     buy = Math.min(buy, price);
   }
-
+  
   return profit;
 }

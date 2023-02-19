@@ -1,5 +1,3 @@
-# 566. Reshape the Matrix
-
 class Solution:
     def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
         N, M = len(mat[0]), len(mat)
